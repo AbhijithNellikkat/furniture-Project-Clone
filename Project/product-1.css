@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all-section{
+  width: 100%;
+  /* height:900px; */
+  /* background-color: black; */
+}
+
+h4.text-decoration-line-through.img3-old-price {
+  margin-top: -37px;
+  margin-left: 139px;
+}
+h4.img3-price {
+  margin-left: 35px;
+}
+span{
+  color: rgb(179, 176, 176);
+}
+p.product1-p-tag {
+  margin-left: 35px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.icons {
+  margin-top: -38px;
+}
+ul.icon-text-color.footer-ul {
+  margin-left: -221px;
+}
+.icon-text-color{
+  color: grey;
+}
+.icon-text-color li:hover{
+  color: #bd8448;;
+}
+
+
+
+img.img-fluid.fourModel-images:hover{
+  filter: blur(1px);
+}
+.button-2{
+  margin-top: -49px;
+  margin-left: 219px;
+}
+
+ul.navbar-nav.mx-1 li a:hover{
+  color: #bd8448;
+}
+
+
+button.text-center.btns {
+  /* background-color: black; */
+  color: white;
+  border: none;
+}
+button.text-center.btns.buy-now-btn {
+  background-color: #1990c6;
+}
+
+button.text-center.btns:hover{
+  background-color: #bd8448;
+}
+button.text-center.add-to-cart-btn{
+  background-color: black;
+  color: white;
+}
+button.text-center.add-to-cart-btn:hover{
+  background-color: rgb(156, 29, 29);
+}
+
+
+
+
+
+
+@media (min-width:1000px){
+  .offcanvas-body ul li a {
+    display: none;
+  }
+  .product-1-title{
+    /* font-family: var(--vela-font-family-secondary); */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  a.navbar-brand {
+    margin-left: 110px;
+  }
+  svg.user-icon {
+    margin-top: 12px;
+  }
+  a.nav-link.text-white.bg-dark.text-white.font-weight-bold.p-2 {
+    margin-left: 73px;
+  }
+  
+
+}  
+
+
+@media (min-width:768px) and (max-width:1024px){
+  .navbar-brand img{
+    display: none;
+  }
+  .col-md-5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/1573/5553/files/logo_dark.svg?v=1601695205);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position: center;
+  }
+  svg.user-icon {
+    margin-left: -90px;
+    margin-top: 22px;
+  }
+  a.nav-link.text-dark.font-weight-bold.p-2.bg-dark.text-white.rounded {
+    margin-top: 12px;
+    margin-left: -39px;
+  }
+  .another-images {
+    margin-top: -228px;
+    margin-left: -102px;
+  }
+
+}  
+
+
+
+@media(max-width:767px){
+  .navbar-brand img{
+    display: none;
+  }
+  .col-md-5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/1573/5553/files/logo_dark.svg?v=1601695205);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size:150px;
+    background-position: center;
+  }
+}  

@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Products page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title>Products page</title>
+  <!-- style.css file link  -->
+  <link rel="stylesheet" href="products.css">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+     <!-- scrollreveal script link -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+
+    <!-- header section start  -->
+<header>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+      <div class="col-3 col-md-4 p-3 my-auto  ">
+        <a class="navbar-brand" href="#"><img src="https://cdn.shopify.com/s/files/1/1573/5553/files/logo_dark.svg?v=1601695205" alt="" width="145px" height="25px" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link text-uppercase " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase " href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase " href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase " href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase " href="#">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    
+        
+      </div>
+      <div class="col-6 col-md-5  p-3 ">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-1">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase " href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase " href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase " href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase " href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="col-3 col-md-3  p-3 ">
+        <ul style="display: flex; list-style: none;">
+          <li style="margin-left: 120px;">
+            <svg class="user-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M4 9.5a5 5 0 1 1 7.916 4.062 7.973 7.973 0 0 1 5.018 7.166.75.75 0 1 1-1.499.044 6.469 6.469 0 0 0-12.932 0 .75.75 0 0 1-1.499-.044 7.972 7.972 0 0 1 5.059-7.181A4.994 4.994 0 0 1 4 9.5ZM9 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm10.25-5a.75.75 0 0 1 .75.75V4h2.25a.75.75 0 0 1 0 1.5H20v2.25a.75.75 0 0 1-1.5 0V5.5h-2.25a.75.75 0 0 1 0-1.5h2.25V1.75a.75.75 0 0 1 .75-.75Z"></path></svg>
+          </li>
+          <li class="nav-item cart mr-5 ml-5">
+            <a class="nav-link text-dark font-weight-bold p-2 bg-dark text-white rounded" href="cart.html" style="vertical-align: bottom; cursor: pointer;">
+              <ion-icon name="cart-outline" class="font-weight-bold text-center" size="small"></ion-icon> cart<span> 0</span>
+            </a>  
+          </li>
+        </ul>
+      </div>
+</div>
+    </div>
+  </nav>
+</header>
+<!-- header section end  -->
+  
+
+<section class="back-img-section">
+  
+</section>
+<div class="container text-center product">
+  <h1 class="text-dark mt-4 text-uppercase" style="font-weight: 500; ">Products</h1>
+</div>
+
+<!-- products - secrion - start  -->
+<section class="products-section  ">
+  <div class="container main-div  ">
+    <div class="row">
+    <div class="col-md-6 col-lg-3 b left-side-section">
+      <h4 class="titleSidebar mt-3">Categories</h4>
+      <br>
+      <ul class="">
+        <li><a href="#" class="text-decoration-none text-secondary">Furniture</a></li>
+        <li><a href="#" class="text-decoration-none text-secondary">Kitchen Things</a></li>
+        <li><a href="#" class="text-decoration-none text-secondary">Illumination</a></li>
+        <li><a href="#" class="text-decoration-none text-secondary">New Products</a></li>
+      </ul>
+      <h4 class="titleSidebar" style="margin-top: 102px;">Color</h4>
+      <div class="colors  mt-4">
+      <a href="#" style="background-color: black; border-radius: 205px;"><img src="https://cdn.shopify.com/s/files/1/1573/5553/t/43/assets/color_default_icon.png?v=10219115301044496671617237736" alt="black-color-mark" width="22px"></a>
+      <a href="#" style="background-color: grey; border-radius: 205px; margin-left: 5px;"><img src="https://cdn.shopify.com/s/files/1/1573/5553/t/43/assets/color_default_icon.png?v=10219115301044496671617237736" alt="black-color-mark" width="22px"></a>
+      <a href="#" style="background-color: indianred; border-radius: 205px; margin-left: 5px;"><img src="https://cdn.shopify.com/s/files/1/1573/5553/t/43/assets/color_default_icon.png?v=10219115301044496671617237736" alt="black-color-mark" width="22px"></a>
+      <a href="#" style="background-color: lightgrey ; border-radius: 205px; margin-left: 5px;"><img src="https://cdn.shopify.com/s/files/1/1573/5553/t/43/assets/color_default_icon.png?v=10219115301044496671617237736" alt="black-color-mark" width="22px"></a>
+      <a href="#" style="background-color: whitesmoke ; border-radius: 205px; margin-left: 5px;"><img src="https://cdn.shopify.com/s/files/1/1573/5553/t/43/assets/color_default_icon.png?v=10219115301044496671617237736" alt="black-color-mark" width="22px"></a>
+    </div>
+
+      <br>
+      <br>
+      
+      <h4 class="titleSidebar">Filter by price</h4>
+      <br>
+      <h4 class="titleSidebar mt-5">Best sellers</h4>
+      <div class="img-1 mt-5 ">
+        <img src="https://cdn.shopify.com/s/files/1/1573/5553/products/14_360x.jpg?v=1601694510" alt="" class="img-fluid"
+        width="80px">
+        <p class="item-name">Sacrificial Chair Design</p>
+        <p class="img1-price">$260.00</p>
+        <p class="text-decoration-line-through img1-old-price">$299.00</p>
+      </div>
+      <div class="img-2 mt-5 ">
+        <img src="https://cdn.shopify.com/s/files/1/1573/5553/products/1_c14253f1-8cb5-4a88-921b-d3dbaffaaafa_360x.jpg?v=1601694960" alt="" class="img-fluid"
+        width="80px">
+        <p class="item-name">Sacrificial Chair Design</p>
+        <p class="img2-price">$160.00</p>
+        <!-- <p class="text-decoration-line-through img2-old-price">$280.00</p> -->
+      </div>
+      <div class="img-3 mt-5 ">
+        <img src="https://cdn.shopify.com/s/files/1/1573/5553/products/16_360x.jpg?v=1509980861" alt="" class="img-fluid"
+        width="80px">
+        <p class="item-name">Sacrificial Chair Design</p>
+        <p class="img3-price">$200.00</p>
+        <p class="text-decoration-line-through img3-old-price">$280.00</p>
+      </div>
+      <div class="img-3 mt-5 ">
+        <img src="https://cdn.shopify.com/s/files/1/1573/5553/products/11_360x.jpg?v=1617528878" alt="" class="img-fluid"
+        width="80px">
+        <p class="item-name">Sacrificial Chair Design</p>
+        <p class="img3-price">$190.00</p>
+        <p class="text-decoration-line-through img3-old-price">$250.00</p>
+      </div>
+      
+    </div>
+    <div class="col-md-6 col-lg-9  right-side-section">
+      <div class="dropdown sorting-options">
+        <a class="btn btn-light  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          Default sorting
+        </a>
+      
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
+          <li><a class="dropdown-item" href="#">Alphabetically, A-Z</a></li>
+          <li><a class="dropdown-item" href="#">Date, new to old</a></li>
+          <li><a class="dropdown-item" href="#">Date, old to new</a></li>
+          <li><a class="dropdown-item" href="#">Price, high to low</a></li>
+          <li><a class="dropdown-item" href="#">Price, low to high</a></li>
+        </ul>
+      </div>
+
+<!--------------------- first-row-start --------------------->
+
+      <div class="row mt-5 ">
+      <div class="col-6 col-md-6 col-lg-3">
+        <div class="image">
+        <a href="product-1.html"><img src="/Project/images/Chair-1.jpg" alt="products-img-1" class="img-fluid"
+          onmouseover="sideImg1()" onmouseout="frontImg1()" id="img-change-id1"></a>
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$260.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$280.00</p>
+          <a href="#" class="add-cart cart1">Add to cart</a>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 ">
+        <div class="image">
+        <a href="product-2.html"><img src="/Project/images/Chair-2.jpg" alt="products-img-2" class="img-fluid"
+          onmouseover="sideImg2()" onmouseout="frontImg2()" id="img-change-id2"></a>
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$160.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$200.00</p>
+          <a href="#" class="add-cart cart2">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 ipad-mt phone-mt">
+        <div class="image">
+        <a href="product-3.html"><img src="/Project/images/Chair-3.jpg" alt="products-img-3" class="img-fluid"
+          onmouseover="sideImg3()" onmouseout="frontImg3()" id="img-change-id3"></a>
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$200.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$280.00</p>
+          <a href="#" class="add-cart cart3">Add to cart</a>
+        </div>
+      </div>
+      </div>
+      
+      <div class="col-6 col-md-6 col-lg-3 ipad-mt phone-mt">
+        <div class="image">
+        <img src="/Project/images/chair-4.jpg" alt="products-img-4" class="img-fluid"
+        onmouseover="sideImg4()" onmouseout="frontImg4()" id="img-change-id4">
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$190.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$250.00</p>
+          <a href="#" class="add-cart cart4">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+<!--------------------- first-row-end --------------------->
+
+
+<!--------------------- second-row-start --------------------->
+
+    <div class="row product-section-row2">
+      <div class="col-6 col-md-6 col-lg-3 phone-mt">
+        <div class="image">
+        <img src="/Project/images/chair-5.jpg" alt="products-img-5" class="img-fluid"
+        onmouseover="sideImg5()" onmouseout="frontImg5()" id="img-change-id5">
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$100.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$280.00</p>
+          <a href="#" class="add-cart cart5">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 phone-mt">
+        <div class="image">
+        <img src="/Project/images/chair-6.jpg" alt="products-img-6" class="img-fluid"
+        onmouseover="sideImg6()" onmouseout="frontImg6()" id="img-change-id6">
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$1145.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$1300.00</p>
+          <a href="#" class="add-cart cart6">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 ipad-mt phone-mt ">
+        <div class="image">
+        <img src="/Project/images/chair-7.jpg" alt="products-img-7" class="img-fluid"
+        onmouseover="sideImg7()" onmouseout="frontImg7()" id="img-change-id7">
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$140.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$180.00</p>
+          <a href="#" class="add-cart cart7">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 ipad-mt phone-mt">
+        <div class="image">
+        <img src="/Project/images/bag-1.jpg" alt="products-img-8" class="img-fluid"
+        onmouseover="sideImg8()" onmouseout="frontImg8()" id="img-change-id8">
+        <div class="product-detiles  mt-3">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$130.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$160.00</p>
+          <a href="#" class="add-cart cart8">Add to cart</a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+<!--------------------- second-row-end --------------------->   
+
+<!--------------------- Third-row-start --------------------->
+
+    <div class="row product-section-row3 ">
+      <div class="col-6 col-md-6 col-lg-3 phone-mt">
+        <div class="image">
+        <img src="/Project/images/pillow-1.jpg" alt="products-img-9" class="img-fluid"
+        onmouseover="sideImg9()" onmouseout="frontImg9()" id="img-change-id9">
+        <div class="product-detiles  mt-3 ">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$260.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$280.00</p>
+          <a href="#" class="add-cart cart9">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 phone-mt">
+        <div class="image">
+        <img src="/Project/images/bag-2.jpg" alt="products-img-10" class="img-fluid"
+        onmouseover="sideImg10()" onmouseout="frontImg10()" id="img-change-id10">
+        <div class="product-detiles  mt-3  ">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$130.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$180.00</p>
+          <a href="#" class="add-cart cart10">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 ipad-mt phone-mt">
+        <div class="image">
+        <img src="/Project/images/blub-1.jpg" alt="products-img-11" class="img-fluid"
+        onmouseover="sideImg11()" onmouseout="frontImg11()" id="img-change-id11">
+        <div class="product-detiles  mt-3 ">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$50.00</p>
+          <p class="text-decoration=-line-through product1-old-price text-secondary">$80.00</p>
+          <a href="#" class="add-cart cart11">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-6 col-md-6 col-lg-3 ipad-mt phone-mt">
+        <div class="image">
+        <img src="/Project/images/clock-1.jpg" alt="products-img-12" class="img-fluid"
+        onmouseover="sideImg12()" onmouseout="frontImg12()" id="img-change-id12">
+        <div class="product-detiles  mt-3 ">
+          <p class="product-name text-secondary  ">Sacrificial Chair Design</p>
+          <p class="product1-price fw-bold">$160.00</p>
+          <p class="text-decoration-line-through product1-old-price text-secondary">$200.00</p>
+          <a href="#" class="add-cart cart12">Add to cart</a>
+        </div>
+      </div>
+      </div>
+
+    </div>
+
+<!--------------------- Third-row-end --------------------->
+    </div>
+    <hr class="mt-5">
+    <nav aria-label="..." >
+      <ul class="pagination pagination-sm " style="margin-top: 20px;">
+        <li class="page-item" aria-current="page" >
+          <span class="page-link text-dark">1</span>
+        </li>
+        <li class="page-item "><a class="page-link text-dark" href="#">2</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+        </svg></a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+</section>
+
+<!-- products - secrion - end  -->
+
+
+
+  <!-- Get-Discount-section-start  -->
+  <section class="get-discount ">
+    <div class="container  text-center  ">
+      <br>
+      <h1 class="mt-5  fw-lighter">Get Discount Info</h1>
+      <br>
+      <p style="color: lightgrey;" class="">Subscribe to the Outstock mailing list to receive updates on new arrivals, special offers <br>
+         and other discount information.</p>
+         <br>
+         <p>Your email address ...</p>
+        <div style="width: 600px; " class="hr-div"> <hr></div>
+         <button type="button" class="text-center sub-btn text-uppercase mt-4" style="padding-left: 62px; padding-right: 62px; padding-top: 12px; padding-bottom: 12px; border: 1px solid black;">subscribe</button>
+
+    </div>
+  </section>
+   <!-- Get-Discount-section-end  -->
+
+
+<!-- footer-section-start  -->
+<section class="footer footer-bg-color mt-5" style="margin-top: -120px;">
+  <div class="container ">
+  <div class="row">
+    <div class="col-md-6 col-6  mt-5 footer-text-color ">
+      <img src="https://cdn.shopify.com/s/files/1/1573/5553/files/logo_color.svg?v=1601696390" alt="footer-logo" class="img-fluid footer-logo-img mt-5"
+      width="180px">
+      <br>
+      <p class="mt-4 ">Outstock is a premium Templates theme with advanced admin module. It’s <br>
+        extremely customizable, easy to use and fully responsive and retina ready.</p>
+        <div class="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+        <div class="location">
+          <p class=" mt-4" style="margin-top: 120px;">Add: 1234 Heaven Stress, Beverly Hill, Melbourne, USA.</p>
+        </div>
+        </div>
+        <div class=" mt-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-inbound" viewBox="0 0 16 16">
+            <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0zm-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>
+          <div class="phone-number ">
+            <p class="">Phone Number: (800) 123 456 789</p>
+          </div>
+        </div>
+        <div class=" mt-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper" viewBox="0 0 16 16">
+            <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
+          </svg>
+          <div class="email-id ">
+            <p class="">Email: Contact@erentheme.com</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-6  mt-5 ">
+      <div class="row">
+      <div class="col-md-6 col-6 mt-5">
+        <h5 class="text-uppercase text-light">INFORMATION</h5>
+        <ul class="information">
+          <li><a href="#" class="text-decoration-none footer-text-color">Search</a></li>
+          <li><a href="#" class="text-decoration-none footer-text-color">Delivery Inforamtion</a></li>
+          <li><a href="#" class="text-decoration-none footer-text-color">Terms & Condition</a></li>
+          <li><a href="#" class="text-decoration-none footer-text-color">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-6 mt-5">
+        <h5 class="text-uppercase text-light">Our services</h5>
+        <ul class="Our-services">
+          <li><a href="#" class="text-decoration-none footer-text-color">Shipping Policy</a></li>
+          <li><a href="#" class="text-decoration-none footer-text-color">Help & Contact Us</a></li>
+          <li><a href="#" class="text-decoration-none footer-text-color">Returns & Refunds</a></li>
+          <li><a href="#" class="text-decoration-none footer-text-color">Online Stores</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<hr class="text-light">
+  <div class="row">
+  <div class="col-md-6 col-6 footer-text-color ">
+    <p class=" mt-5" style="margin-left: 100px;">
+      Copyright © 2022 <span>Outstock</span> all rights reserved.
+    </p>
+  </div>
+  <div class="col-md-6 col-6 ">
+    <div class=" icons-footer  mt-4 " style="width: 390px;">
+      <ul class=" footer-text-color footer-ul" style="display:flex; ">
+        <li style="padding-left: 12px; margin-left: 310px;" class="footer-li">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+        </li>
+        <li style="padding-left: 33px; " class="footer-li ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+        </li>
+        <li style="padding-left: 33px;" class="footer-li">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg></li>
+        <li style="padding-left: 33px;" class="footer-li">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- footer-section-end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- main.js file link -->
+  <script src="products.js"></script>
+
+   <script>
+    ScrollReveal({ distance: '100px' });
+    ScrollReveal().reveal('.image', { origin: 'bottom' });
+    ScrollReveal().reveal('.image', { origin: 'bottom' });
+   </script>
+   
+
+
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+</html>

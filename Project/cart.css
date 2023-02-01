@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.products-container{
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 200px;
+
+}
+.product-header{
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content:flex-start;
+  /* border-bottom: 4px solid lightgrey; */
+  margin: 0 auto  ;
+
+}
+.product-title{
+  width: 25%;
+  background-color: brown;
+
+}
+.price{
+  width: 15%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+.quantity{
+  width: 30%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+.total{
+  width: 10%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blueviolet; */
+}
+.product{
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+  /* background-color: blue; */
+}
+.BasketTotalContianer{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+.basketTotal{
+  width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px){
+  .offcanvas-body ul li a {
+    display: none;
+  }
+  .product-1-title{
+    /* font-family: var(--vela-font-family-secondary); */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  a.navbar-brand {
+    margin-left: 110px;
+  }
+  svg.user-icon {
+    margin-top: 12px;
+  }
+  a.nav-link.text-white.bg-dark.text-white.font-weight-bold.p-2 {
+    margin-left: 73px;
+  }
+
+
+}  
+
+
+@media (min-width:768px) and (max-width:1024px){
+  .navbar-brand img{
+    display: none;
+  }
+  .col-md-5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/1573/5553/files/logo_dark.svg?v=1601695205);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position: center;
+  }
+
+}  
+
+
+
+@media(max-width:767px){
+  .navbar-brand img{
+    display: none;
+  }
+  .col-md-5 {
+    background-image: url(https://cdn.shopify.com/s/files/1/1573/5553/files/logo_dark.svg?v=1601695205);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size:150px;
+    background-position: center;
+  }
+}  
